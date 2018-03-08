@@ -1,12 +1,13 @@
 # Speak
 
-**TODO: Add description**
+```elixir
+Logger.add_backend(SpeakLoggerBackend)
+require Logger
+Logger.debug("Hear my beautiful speaking voice!!")
+```
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `speak` to your list of dependencies in `mix.exs`:
-
+Add `speak` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
@@ -19,3 +20,8 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/speak](https://hexdocs.pm/speak).
 
+
+## Disclaimer
+Obviously this is a joke. It works, but I have not put it on large projects.
+I see no reason to put this into a production application ever.
+TLDR: This is a joke.
